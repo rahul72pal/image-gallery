@@ -12,7 +12,8 @@ export default function App() {
   const [upload , setupload] = useState(false);
   
   const handleFileChange = (e) => {
-    // When the user selects a file, capture it
+    // When the user selects a file, capture its
+    
     setImage(e.target.files[0]);
   };
   
